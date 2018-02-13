@@ -1,0 +1,78 @@
+/*
+ * Written by Joshua Tambunan
+ * Copyright of Arable AU 2018
+ * Date: 13/02/2018
+ * Notes: CSS file to style the registration HTML file
+ * Version: 0.1
+ */
+
+@font-face {
+    font-family: "avenirLight";
+    src: url("../fonts/Avenir-Light.woff") format("woff");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, 
+body {
+    height: 100%;
+}
+
+#wrap {
+    min-height: 100%;
+}
+
+body {
+    background-color: #fbf8e5;
+    color: #6e7d9e;
+    font-family: 'Segoe UI', "Tahoma", "Geneva", "Verdana", "sans-serif";
+}
+header {
+    background-color: #7c4dff;
+    color: #A5B7C5;
+    padding: 0px 0px;
+    width: 100%;
+}
+header > h1 {
+    letter-spacing: 5px;
+    font-family: "avenirLight";
+}
+article > h2 {
+    font-weight: bolder;
+}
+article > h2::before {
+    content: "\002329";
+    color: #F9C989;
+}
+article > h2::after {
+    content: "\00232A";
+    color: #F9C989;
+}
+
+main {
+    overflow: auto;
+    padding-bottom: 180px;
+    /* must be the same height as the footer */
+}
+    
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    /* negative value of the footer height */
+    height: 3%;
+    width: 100%;
+    clear: both;
+    background-color: #686868;
+    color: #ffffff;
+    font-size: 12px;
+
+}
+
+.arablePurpleBackground {
+    background: #7c4dff;
+    color: #ffffff;
+}
